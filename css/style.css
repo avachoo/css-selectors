@@ -7,3 +7,56 @@ h1, h2, h3 {
     font-family: sans-serif;
     margin-bottom: 0;
 }
+
+p{
+    margin: 0.5em 0;
+}
+
+h1, h3 + p{
+    color: purple;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+header div{
+    margin: 1em 0;
+}
+
+h2{
+    text-transform: uppecase;
+    border-bottom: 2px solid #000;
+}
+
+header > p{
+    font-size: 1.25rem;
+}
+
+.profile{
+    width: 150px
+    border-radius: 50%;  
+}
+
+div a{
+    color:purple;
+}
+
+section#section-experience{
+    border-bottom: 2px dashed #ccc;
+}
+
+main > section{
+    margin-bottom: 3rem;
+}
+
+main > section > h2 + p > strong{
+    color: purple;
+}
+
+li: nth-child(even){
+    color: purple;
+}
+
+div:last-child{
+    background-color: #ccc;
+}
